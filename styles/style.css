@@ -29,15 +29,20 @@ body {
 .conteudo__page__subtitulos {
   font-family: "Poppins", sans-serif;
   color: #CE5071;
+  font-size: 36px;
 }
 
 .conteudo__page__paragrafo {
   font-family: "Montserrat", sans-serif;
   color: #303030;
+  font-size: 24px;
 }
 
 ol li {
   margin-left: 4%;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #303030;
 }
 
 .rodape {

@@ -4,6 +4,8 @@
     $cor--primaria: #fefefa;
     $cor--secundaria: #303030;
     $cor--terciaria: #CE5071;
+    $fonte--primaria: 'Poppins', sans-serif;
+    $fonte--secundaria: 'Montserrat', sans-serif;
 
 *{
     margin: 0%;
@@ -29,18 +31,23 @@ body{
     gap: 8px;
 }
 .conteudo__page__subtitulos{
-    font-family: 'Poppins', sans-serif;
+    font-family: $fonte--primaria;
     color: $cor--terciaria;
+    font-size: 36px;
 }
 .conteudo__page__paragrafo{
-    font-family: 'Montserrat', sans-serif ;
+    font-family: $fonte--secundaria;
     color: $cor--secundaria;
+    font-size: 24px;
 }
 ol li{
     margin-left: 4%;
+    font-size: 24px;
+    font-family: $fonte--secundaria;
+    color: $cor--secundaria;
 }
 .rodape{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fonte--secundaria;
     font-size: small;
     font-weight: 600;
     color: $cor--secundaria;
