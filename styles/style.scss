@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap');
 
-:root{
-    --cor--primaria: #fefefa;
-    --cor--secundaria: #303030;
-    --cor--terciaria: #CE5071;
-}
+
+    $cor--primaria: #fefefa;
+    $cor--secundaria: #303030;
+    $cor--terciaria: #CE5071;
+
 *{
     margin: 0%;
     padding: 0%;
@@ -13,7 +13,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: var(--cor--primaria);
+    background-color: $cor--primaria;
 }
 .elementos__page{
     padding: 2.2%;
@@ -30,11 +30,11 @@ body{
 }
 .conteudo__page__subtitulos{
     font-family: 'Poppins', sans-serif;
-    color: var(--cor--terciaria);
+    color: $cor--terciaria;
 }
 .conteudo__page__paragrafo{
     font-family: 'Montserrat', sans-serif ;
-    color: var(--cor--secundaria);
+    color: $cor--secundaria;
 }
 ol li{
     margin-left: 4%;
@@ -43,8 +43,8 @@ ol li{
     font-family: 'Montserrat', sans-serif;
     font-size: small;
     font-weight: 600;
-    color: var(--cor--secundaria);
-    background-color: var(--cor--terciaria);
+    color: $cor--secundaria;
+    background-color: $cor--terciaria;
     padding: 1%;
     align-items: center;
     justify-content: center;
