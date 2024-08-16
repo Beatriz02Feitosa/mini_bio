@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap');
-
-
     $cor--primaria: #fefefa;
     $cor--secundaria: #303030;
     $cor--terciaria: #CE5071;
@@ -13,7 +10,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
+
     height: 100vh;
     background-color: $cor--primaria;
 }
@@ -33,16 +30,16 @@ body{
 .conteudo__page__subtitulos{
     font-family: $fonte--primaria;
     color: $cor--terciaria;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 .conteudo__page__paragrafo{
     font-family: $fonte--secundaria;
     color: $cor--secundaria;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
-ol li{
+li{
     margin-left: 4%;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: $fonte--secundaria;
     color: $cor--secundaria;
 }
